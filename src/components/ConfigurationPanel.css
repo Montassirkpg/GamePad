@@ -1,0 +1,21 @@
+.configuration-panel {
+    width: 30%;
+    text-align: left;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+  }
+  
+  .config-option {
+    margin-bottom: 20px;
+  }
+  
+  .config-option label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .config-option input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  

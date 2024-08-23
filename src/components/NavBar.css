@@ -1,36 +1,20 @@
-/* src/components/Navbar.css */
-
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #333;
-    color: white;
+    background-color: #000;
+    color: #fff;
   }
   
-  .navbar-logo {
-    font-size: 1.5em;
-    font-weight: bold;
-  }
-  
-  .navbar-links {
+  .nav-links {
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 20px;
   }
   
-  .navbar-links li {
-    display: inline;
-  }
-  
-  .navbar-links a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .navbar-links a:hover {
-    color: #ddd;
+  .cart-info {
+    display: flex;
+    gap: 10px;
   }
   

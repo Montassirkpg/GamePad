@@ -1,17 +1,17 @@
-// src/App.js
 import React from 'react';
 import Navbar from './components/NavBar';
-import ImageCarousel from './components/ImageCarousel';
-import Description from './components/Description';
+import CarouselComponent from './components/CarouselComponent';
+import ConfigurationPanel from './components/ConfigurationPanel';
+import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Navbar />
-      <main>
-        <ImageCarousel />
-        <Description />
-      </main>
+      <div className="content">
+        <CarouselComponent />
+        <ConfigurationPanel />
+      </div>
     </div>
   );
 }

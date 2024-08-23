@@ -1,0 +1,9 @@
+.carousel-wrapper {
+    width: 50%;
+  }
+  
+  .carousel .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
