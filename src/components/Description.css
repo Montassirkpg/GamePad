@@ -1,0 +1,17 @@
+/* src/components/Description.css */
+.description {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .description h2 {
+    margin-bottom: 10px;
+    font-size: 2em;
+  }
+  
+  .description p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
